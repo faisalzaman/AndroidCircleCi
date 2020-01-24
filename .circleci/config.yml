@@ -24,10 +24,6 @@ jobs:
           name: Run Tests
           command: ./gradlew lint test
 
-      - run:
-          name: Run Espresso UI Tests
-          command: ./gradlew :app:connectedDebugAndroidTest
-
 
       - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
           path: app/build/reports
