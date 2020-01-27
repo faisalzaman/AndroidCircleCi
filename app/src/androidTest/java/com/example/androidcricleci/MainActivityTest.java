@@ -27,8 +27,10 @@ public class MainActivityTest {
     @Test
     public void testLaunch(){
 
-        View view = mainActivity.findViewById(R.id.tvMainText);
-        assertNotNull(view);
+//        View view = mainActivity.findViewById(R.id.tvMainText);
+//        assertNotNull(view);
+
+        fail("Test failed intentionally");
     }
 
     @After
